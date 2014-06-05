@@ -51,7 +51,12 @@
       <groupId>commons-httpclient</groupId>
       <artifactId>commons-httpclient</artifactId>
       <version>3.1</version>
-    </dependency>    
+    </dependency> 
+<dependency>
+    <groupId>jdk.tools</groupId>
+    <artifactId>jdk.tools</artifactId>
+    <version>1.6</version>
+</dependency>
 
     <dependency>
       <groupId>org.apache.hadoop</groupId>
