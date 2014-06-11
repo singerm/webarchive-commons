@@ -52,7 +52,6 @@
       <artifactId>commons-httpclient</artifactId>
       <version>3.1</version>
     </dependency> 
-
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-core</artifactId>
@@ -131,7 +130,7 @@
     <dependency>                        
       <groupId>it.unimi.dsi</groupId>
       <artifactId>mg4j</artifactId>
-      <version>2.0.15</version>
+      <version>1.0.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
