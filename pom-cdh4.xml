@@ -52,6 +52,7 @@
       <artifactId>commons-httpclient</artifactId>
       <version>3.1</version>
     </dependency> 
+
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-core</artifactId>
@@ -127,25 +128,17 @@
       <artifactId>libidn</artifactId>
       <version>1.15</version>
     </dependency>
-
+    <dependency>                        
+      <groupId>it.unimi.dsi</groupId>
+      <artifactId>mg4j</artifactId>
+      <version>2.0.15</version>
+      <scope>compile</scope>
+    </dependency>
     <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpcore</artifactId>
         <version>4.3</version>
-    </dependency> 
-        <dependency>                        
-      <groupId>it.unimi.dsi</groupId>
-      <artifactId>dsiutils</artifactId>
-      <version>2.0.12</version>
-      <scope>compile</scope>
-    </dependency>
-        <dependency>
-      <groupId>fastutil</groupId>
-      <artifactId>fastutil</artifactId>
-      <version>5.0.7</version>
-      <scope>compile</scope>
-    </dependency>
-                   
+    </dependency>                
   </dependencies>
 
   <build>
